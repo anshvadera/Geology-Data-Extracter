@@ -16,13 +16,14 @@
 
 7) front end  - Streamlit is used
 
-###DATABASE
+### DATABASE
 
 Database used - PostgreSql
 
-Tables - 1) clbody   (columns - companyid, companyname)
-         2) dhlitho  (columns - attribute column, attribute value, anumber, filename, companyid, companyname, mastercode)
-         3) mrtfile  (columns - anumber, companyid, filename)
+Tables 
+1) clbody   (columns - companyid, companyname)
+2) dhlitho  (columns - attribute column, attribute value, anumber, filename, companyid, companyname, mastercode)
+3) mrtfile  (columns - anumber, companyid, filename)
 
 clbody, mrtfile tables are used and interacted between each other to get details and to update dhlitho table.
 
